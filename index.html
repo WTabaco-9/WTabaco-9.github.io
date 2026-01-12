@@ -9,5 +9,12 @@
  <body>
      <h1>[About Me]</h1>
      <p>[I am a Computer Science major!]</p>
+     <button onclick="castSpell()">Click to Test Interaction!</button>
+     <p id="spellResult"></p>
+     <script>
+     function castSpell() {
+         document.getElementById("spellResult").innerText = "Interaction handled successfully.";
+     }
+     </script>
  </body>
  </html>
